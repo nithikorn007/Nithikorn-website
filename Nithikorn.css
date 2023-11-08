@@ -1,0 +1,208 @@
+button {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  margin: 0px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  background-color: rgb(128, 47, 16);
+  padding: 10px;
+}
+
+.button {
+  flex: 1;
+}
+
+.button-home {
+  flex: 0.5;
+  text-align: right;
+}
+
+.name-div {
+  flex: 1;
+}
+
+.name {
+  font-family: Agbalumo;
+  color: white;
+  font-size: 35px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.contact {
+  font-family: Montserrat;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(192, 130, 97);
+  border-color: rgb(192, 130, 97);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  transition: background-color, color, opacity 0.15s ;
+  text-decoration: none;
+  margin-right: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.contact:hover {
+  background-color:rgb(192, 130, 97);
+  color: white;
+}
+
+.contact:active {
+  background-color:rgb(192, 130, 97);
+  color: white;
+  opacity: 0.5;
+}
+
+.activities {
+  font-family: Montserrat;
+  background-color: rgb(242, 236, 190);
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.15s;
+}
+
+.activities:hover {
+  opacity: 0.6;
+}
+
+.activities:active {
+  opacity: 0.4;
+}
+
+.certificate {
+  font-family: Montserrat;
+  background-color: rgb(218, 46, 30);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  transition: opacity, background-color 0.15s;;
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.certificate:hover {
+  background-color: rgb(255, 150, 53);
+}
+
+.certificate:active {
+  opacity: 0.4;
+}
+
+.back {
+  background-color: rgb(255, 227, 185);
+  padding-bottom: 13px;
+}
+
+.home {
+  font-family: Montserrat;
+  background-color: rgb(192, 91, 44);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  transition: opacity, background-color, color 0.15s;;
+  margin-left: 10px;
+} 
+
+.home:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.home:active {
+  opacity: 0.4;
+}
+
+.profile-div {
+  text-align: center;
+  margin: 30px;
+}
+
+.pic-div {
+  display: inline-block;
+}
+
+.pic {
+  width: 400px;
+  border-radius: 1000px;
+  box-shadow: 0px 0px 25px rgb(0, 0, 0, 1);
+  transition: width 0.7s;
+}
+
+.pic:hover {
+  width: 490px;
+}
+
+.welcome-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.welcome-padding {
+  border-radius: 30px;
+  background-color: rgb(157, 62, 43);
+  width: 800px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 85px;
+  text-align: center;
+  box-shadow: 0px 0px 16px rgb(0, 0, 0, 0.7);
+}
+
+.welcome {
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.line {
+  background-color: rgb(157, 62, 43);
+  text-align: center;
+  color:aliceblue
+}
